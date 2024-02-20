@@ -140,13 +140,36 @@ display:inline-block;
 }
 
 @media(max-width:768px){
+
+h2,h3{
+font-size:21px;
+}    
+p{
+font-size:14px;
+}
+
+.anchor{
+font-size:14px;
+}
+
+.content-delivery{
+width:69%;
+}
+
+.Containeres{
+width:100%;
+}
+
 .IMG-Delivery{
 background-position:center;
-border-radius:10px;    
+border-radius:10px;  
+width:86%;
+margin:0;  
 }
 
 .img-divine{
-max-height:450px
+max-height:450px;
+width:86%;
 }
 
 }
